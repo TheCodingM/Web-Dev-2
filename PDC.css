@@ -1,0 +1,70 @@
+body { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75) ,rgba(21, 21, 21, 0.75)), url(Pixar.jpeg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+
+header { 
+    background-image: linear-gradient(rgb(255, 255, 104), rgb(194, 194, 242));
+    margin: 0%; 
+    min-height: 9vh; 
+} 
+
+.image { 
+    width: 10cm; 
+    height: 10cm;
+    margin-top: 5%;
+} 
+
+button {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    display: inline-block;
+    color: rgba(22, 17, 162, 0.857);
+
+}
+
+.teachers { 
+    font-size: 30px; 
+    width: 10%;
+    border: 2px outset rgb(41, 31, 173); 
+    top: 18px;
+    margin: 0 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.teachers:hover { 
+    background: rgb(156, 156, 156); 
+    width: 11%;
+} 
+
+#buttons { 
+    display: flex; 
+    justify-content: center;
+ } 
+
+#DateDiv {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    display: flex; 
+    justify-content: center;
+    color: aliceblue;
+} 
+
+#ImageDiv {
+    display: flex; 
+    justify-content: center;
+ } 
+
+.logo {
+    width: 12.5%;
+    height: 7%; 
+    margin-left:0.9%;
+    margin-top: 0.4%;
+    position: absolute;
+}
